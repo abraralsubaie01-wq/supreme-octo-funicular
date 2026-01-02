@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fbeffb;
+}
+
+.main-content-text {
+  position: relative;
+  z-index: 10;
+  margin-top: 180px;
+  padding: 40px;
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background: #37474f;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 30px 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fbeffb;
+  max-width: 100%;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.main-content-text h2 {
+  font-size: 4em;
+  color: #fff;
+}
+
+.main-content-text h3 {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.main-content-text p {
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.skills-area {
+  margin: 35px 0;
+}
+
+.skills-area h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.skills-area ul {
+  font-size: 1.3em;
+  color: #fff;
+  padding-right: 30px;
+}
+
+.contact-footer h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-books {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.2em;
+  background: #37474f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.linkedin-small-btn {
+  display: inline-block;
+  background: #0077b5;
+  color: white;
+  padding: 8px 20px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#welcomeBtn {
+  padding: 12px 30px;
+  font-size: 1.1em;
+  background: #fbeffb;
+  color: #37474f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #37474f;
+  }
+  .main-content-text {
+    margin-top: 120px;
+    padding: 20px;
+  }
+  .main-content-text h2 {
+    font-size: 2.5em;
+  }
+  .main-content-text h3 {
+    font-size: 1.8em;
+  }
+  .logo {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fbeffb;
+}
+
+.main-content-text {
+  position: relative;
+  z-index: 10;
+  margin-top: 200px;
+  padding: 40px;
+}
+
+/* تنسيق اللوجو المستعاد */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  font-size: 1.8em;
+  padding: 30px 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  font-weight: 700;
+}
+
+.english-part {
+  font-family: "Georgia", serif;
+  color: #fbeffb;
+  font-size: 1.2em;
+}
+
+.header-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fbeffb;
+}
+
+.main-title {
+  font-size: 4.5em;
+  color: #fff;
+  line-height: 1.1;
+}
+.sub-title {
+  font-size: 2.8em;
+  color: #fff;
+  margin: 10px 0;
+}
+.description {
+  font-size: 1.6em;
+  color: #fff;
+  max-width: 900px;
+  line-height: 1.5;
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background: #37474f;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 2;
+}
+
+.skills-area h2 {
+  font-size: 2.8em;
+  color: #fff;
+  margin-top: 30px;
+}
+.skills-area ul {
+  font-size: 1.5em;
+  color: #fff;
+  padding-right: 40px;
+  margin: 15px 0;
+}
+
+.contact-footer h2 {
+  font-weight: 900;
+  font-size: 2.8em;
+  color: #fff;
+}
+
+/* تنسيق الأزرار */
+.btn-books {
+  display: inline-block;
+  padding: 12px 35px;
+  background: #37474f;
+  color: #fff;
+  font-size: 1.3em;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.linkedin-small-btn {
+  display: inline-block;
+  background: #0077b5;
+  color: white;
+  padding: 8px 20px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#welcomeBtn {
+  padding: 12px 35px;
+  font-size: 1.2em;
+  background: #fbeffb;
+  color: #37474f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #37474f;
+  }
+  .main-title {
+    font-size: 2.8em;
+  }
+  .logo {
+    font-size: 1.1em;
+    padding: 20px;
+  }
+  .header-img {
+    width: 60px;
+    height: 60px;
+  }
+}
